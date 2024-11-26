@@ -1,0 +1,629 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Kitnote - Tech Plan</title>
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="assets/css/style.css">
+   </head>
+
+   <body>
+      <header>
+         <img class="logo" src="assets/img/kitnote_logo_final_white.svg" alt="">
+         <h1>UI/UX applied to a website backed by a relational database using PHP and MySQLi: Tech Plan</h1>
+         <h2>Aleksandra Petrukova, André Cardoso, Andrés Hamburger</h2>
+         <h2>Applied UI/UX Design, web design MEQ-2</h2>
+         <h2><a href="https://andre69.web582.com/ui-ux/project2/index.html" target="_blank">Click here to access Kitnote</a></h2>
+      </header>
+
+   <main>
+      <!-- INTRODUCTION -->
+      <section class="intro">
+         <button class="accordion btn1">Introduction</button>
+
+         <div class="panel">
+            <article class="container">
+
+               <!-- Objective -->
+               <h3>Objective</h3>
+               <p>
+                  Revitalize an existent note app with a <i>contempurrary</i> cat-lover makeover and improved functionality. Make the users experience a blend of cute modern design and enhanced features, redefining their note-taking experience and developing a easy-doing and efficient way to scratch their meows, capturing and organizing thoughts.
+               </p>
+
+               <!-- Description -->
+               <h3>Description</h3>
+               <p>
+                  Kitnote is a cute intuitive note-taking app that painless aids you in managing your thoughts and tasks. Designed for ease of use, Kitnote simplifies tracking your tasks, using the app for quick reminders or creating to-do lists. You can use it in all your devices to keep yourself organized wherever you go. Kitnote will become your essential cat companion for productivity, if it isn't already. 😼
+               </p>
+
+               <!-- Reason to be -->
+               <h3>Reason to be</h3>
+               <p>
+                  Yeah it's just another note taking app, but did you look at it? Cats! I mean... Do you need a better reason? I don't think so. 
+               </p>
+               <p>
+                  But if you insist...
+               </p>
+               <p>
+                  There are so many note-taking apps in the market nowadays... And they tend to offer a little bit too many options, and you may actually not need them. Many, many times, less is more. So We decided to make it simple for you. Stick with what you really need: know what you have to do.
+               </p>
+
+               <!-- Features -->
+               <div class="features">
+                  <h3>Features</h3>
+                  
+                  <!-- Practical -->
+                  <ul>
+                     <p><strong>Practical:</strong></p>
+                     <li>Cats ❤️</li>
+                     <li>Easy to use</li>
+                     <li>Organized</li>
+                     <li>Simple</li>
+                     <li>Intuitive</li>
+                     <li>Modern</li>
+                     <li>Cute</li>
+                     <li>Responsive</li>
+                     <li>Accessible</li>
+                     <li>Did I mention cats?</li>
+                  </ul>
+                  
+                  <!-- Design -->
+                  <ul>
+                     <p><strong>Design:</strong></p>
+                     <li>New logo</li>
+                     <li>Minimalist Design</li>
+                     <li>Simplicity</li>
+                     <li>Grid layout</li>
+                     <li>Colours for personal categories</li>
+                     <li>Dark/light mode</li>
+                  </ul>
+
+                  <!-- Actions -->
+                  <ul>
+                     <p><strong>Actions:</strong></p>
+                     <li>Sign up</li>
+                     <li>Log in</li>
+                     <li>Add note</li>
+                     <li>Edit note</li>
+                     <li>Delete note</li>
+                     <li>Choose note colour for personalized categories</li>
+                     <li>Check/uncheck note completed</li>
+                     <li>Filters:</li>
+                        <ul class="sublist">
+                           <li>Checked</li>
+                           <li>Unchecked</li>
+                           <li>By colour</li>
+                           <li>All notes</li>
+                           <li>Order by oldest/newest</li>
+                  </ul>
+               </div>
+            </article>
+         </div>
+      </section>
+
+      <!-- UI/UX Competition -->
+      <section>
+         <button class="accordion btn2">UI/UX Big Competition</button>
+         
+         <div class="panel evaluations">
+            <article class="container competition">
+               
+               <!-- OneNote -->
+               <div class="one-note">
+                  <figure>
+                     <img src="assets/img/OneNote.png" alt="" class="logo-evaluation">
+                  </figure>
+
+                  <h3>OneNote by Microsoft</h3>
+
+                  <p>
+                     OneNote is a versatile note-taking app that combines the functionality of a traditional notebook with the flexibility of a digital workspace. It allows you to jot down ideas, create checklists, and even insert images, tables, and other multimedia elements directly into your notes.
+                  </p>
+
+                  <ul>
+                     <p><strong>key features of OneNote include: </strong></p>
+                     <li>A multi-layer interface with three levels: each page is a canvas for your notes, grouped into sections comprising a notebook. This layout might take some getting used to, but advanced users might appreciate it due to its robust organization.</li>
+
+                     <li>Superior rich text editing and media capabilities compared to Google Keep. You can import meeting details directly from the Outlook calendar and add hyperlinks to your notes.</li>
+
+                     <li>Organization of notes into sections and notebooks by default. You can move notes between sections and notebooks, giving you control over how your notes are categorized.</li>
+
+                     <li>Mobile-friendly app with a clean interface and intuitive features.</li>
+                  </ul>
+
+                  <p>
+                     On the other hand, OneNote has its own set of limitations. It only offers local storage under Windows, which can be restrictive for users who need to access their notes from different devices. There are also text editing issues in OneNote. If you annotate a photo or some text, then insert some text above it, the annotations don't necessarily move with the photo and can become misplaced. Finally, OneNote has a somewhat outdated look and can sometimes feel overcrowded.
+                  </p>
+               </div>
+
+               <!-- Keep -->
+               <div class="keep">
+                  <figure>
+                     <img src="assets/img/Keep.png" alt="" class="logo-evaluation">
+                  </figure>
+
+                  <h3>Keep by Google</h3>
+
+                  <p>
+                     Google Keep is a simple yet powerful note-taking app that's designed for quick, easy access to your notes. It's particularly useful for jotting down to-do items, creating checklists, and capturing quick ideas.
+                  </p>
+
+                  <ul>
+                     <p><strong>key features of OneNote include: </strong></p>
+                     <li>A clean interface with notes displayed as widgets in the main window. You can compose a new note using the bar placed above the existing ones, and you'll see options to add an image or checklist.</li>
+
+                     <li>Limited rich text editing and media capabilities compared to OneNote. However, it does allow you to add images, drawings, checklists, and voice notes.</li>
+
+                     <li>Centralized organization of notes on the main screen with features to sort them. You can assign labels that act as folders and display them in the left-hand menu. Google Keep also lets you set colours and backgrounds of your notes.</li>
+
+                     <li>Mobile-friendly app with a similar layout to the web version. It provides quick actions for creating a note and accessing different labels.</li>
+                  </ul>
+
+                  <p>
+                     Google Keep has some limitations that can affect its usability. For instance, it doesn't allow users to organize their notes into folders, which can lead to a cluttered user interface and make navigation difficult. Additionally, some users have reported issues with data synchronization, including delays and the return of old or deleted items. Lastly, the text editing experience in Google Keep is not ideal. When users click in the middle of a note, a text box is created in the middle, which can result in an empty note with an empty text box at the bottom right.
+                  </p>
+               </div>
+
+               <!-- Notes -->
+               <div class="notes">
+                  <figure>
+                     <img src="assets/img/Notes.png" alt="" class="logo-evaluation">
+                  </figure>
+
+                  <h3>Notes by Apple</h3>
+
+                  <p>
+                     Apple Notes is a straightforward note-taking app that's integrated seamlessly with the rest of the Apple ecosystem. It's designed to be simple and easy to use, making it a good choice for those who prefer simplicity over complexity.
+                  </p>
+
+                  <ul>
+                     <p><strong>key features of OneNote include: </strong></p>
+                     <li>Integration with other Apple services like Siri, Shortcuts, and the Apple Watch.</li>
+
+                     <li>Support for rich text and images.</li>
+
+                     <li>Ability to organize notes into folders and subfolders.</li>
+
+                     <li>Syncing across all your Apple devices.</li>
+
+                     <li>Sharing options with others.</li>
+                  </ul>
+
+                  <p>
+                     Apple Notes also has its own set of limitations. While you can share individual notes, you can't share collections or notebooks with others. Unlike some other note-taking apps, Apple Notes doesn't support rich text editing, which means you can't change the font size or style, apply bold or italics, etc., within a single note. These features, which are available in many other note-taking apps, are missing from Apple Notes. Another limitation is that Apple Notes does not support colour-coding or tagging, which can be useful for organizing notes.
+                  </p>
+               </div>
+            </article>
+         </div>
+      </section>
+
+      <!-- UI/UX Kitnote - Previous version -->
+      <section>
+         <button class="accordion btn3">Kitnote: Before and After</button>
+         
+         <div class="panel evaluations">
+            <article class="container before-after">
+               
+               <!-- Before -->
+               <div class="before">
+                  <h3>Previous UI</h3>
+
+                  <ul>
+                     <img src="assets/img/before-after/old-login.png" alt="">
+                     <figcaption>Previous login page</figcaption>
+                     <img src="assets/img/before-after/olg-signup.png" alt="">
+                     <figcaption>Previous signup page</figcaption>
+
+                     <li>The sign up form is wider than login form for no specific reason. This creates a glitch when being dynamically generated.</li>
+
+                     <li>The name referred to cats but the design barely reflect this</li>
+                  </ul>
+
+                  <ul>
+                     <img src="assets/img/before-after/old-main.png" alt="">
+                     <figcaption>small text box, big empty space</figcaption>
+                     
+                     <li>A Small and always visible text box blocking the layout and generating too much empty space in the page</li>
+
+                     <li>Each note can have only 600 characters maximum</li>
+
+                     <li>The button to add note on the is on the left side of text box. Normally it should be placed on the right side</li>
+
+                     <li>In general, small buttons with no hover effect. The button to add a note is the only one with a hover effect applied to it</li>
+
+                     <li>The filter buttons have no mouse pointer set (and no hover effect), so it's not clear if it's a button unless you try and click on them</li>
+                  </ul>
+
+                  <ul>
+                     <img src="assets/img/before-after/old-notes.png" alt="">
+                     <figcaption>A narrow space to display the notes</figcaption>
+
+                     <li>The notes are shown in a narrow space, one on top of the other, so you can only see one or two of them before need to scroll the page</li>
+
+                     <li>The buttons for note actions are all positioned together side-by-side on the left side of the note</li>
+
+                     <li>The button to delete note is in between other two buttons, this can cause accidental unwanted deletion. It also has a confusing icon, it looks more like the ones used to cancel an action</li>
+
+                     <li>The checked and unchecked notes have no visual difference besides the button icon changing, they have the same background colour</li>
+
+                     <li>The logout button it's hidden bellow all the notes, forcing the user to scroll the page in order to find it</li>
+                  </ul>
+               </div>
+
+               <!-- After -->
+               <div class="after">
+                  <h3>Improved UI</h3>
+
+                  <ul>
+                     <img src="assets/img/before-after/new-login.png" alt="">
+                     <figcaption>Improved login page</figcaption>
+                     <img src="assets/img/before-after/new-signup.png" alt="">
+                     <figcaption>Improved signup page</figcaption>
+
+                     <li>Cats ❤️</li>
+
+                     <li>New logo, reflecting better the thematic</li>
+
+                     <li>A balanced login and signup form</li>
+                  </ul>
+
+                  <ul>
+                     <img src="assets/img/before-after/new-notes.png" alt="">
+                     <figcaption>Notes in a grid layout, page with a floating menu</figcaption>
+
+                     <li>All notes showed side-by-side in a grid layout occupying most part of the page</li>
+
+                     <li>Floating menu to add and filter notes discretely placed at each side of the page</li>
+
+                     <li>The notes show a preview of the content, so you can read it full once you open the one you actually need to see</li>
+
+                     <li>Buttons to check, open/edit and delete more logically positioned and increased space around them to avoid mistakes</li>
+
+                     <li>Checked notes in gray colour to visually separate completed ones from the ones in progress</li>
+                  </ul>
+
+                  <ul>
+                     <img src="assets/img/before-after/new-add.png" alt="">
+                     <figcaption>Textbox to add a note in a modal</figcaption>
+                     <img src="assets/img/before-after/new-open.png" alt="">
+                     <figcaption>Notes open and are edited in a modal</figcaption>
+
+                     <li>Use of modal to add a note</li>
+
+                     <li>Notes with up to 1200 characters</li>
+
+                     <li>Use of modal to open/edit the desired note</li>
+                  </ul>
+
+                  <ul>
+                     <img src="assets/img/before-after/new-dark-menu.png" alt="">
+                     <figcaption>Dark/Light modes</figcaption>
+
+                     <li>Dark/light mode option</li>
+
+                     <li>A hamburger menu, with dark/light mode toggle and log out button, was added to the page</li>
+                  </ul>
+
+                  <ul>
+                     <img src="assets/img/before-after/new-color-sort.png" alt="">
+                     <figcaption>Sort notes by color</figcaption>
+
+                     <li>Option to chose among 6 different colours, to create personalized categories</li>
+
+                     <li>Improved filter menu, with added option to show notes by colour</li>
+                  </ul>
+               </div>
+            </article>
+         </div>
+      </section>
+
+      <!-- PERSONAS -->
+      <section>
+         <button class="accordion btn4">Personas</button>
+         
+         <article class="panel">
+            <div class="container">
+
+               <!-- PERSONA 1 -->
+               <article class="persona-grid">
+                  <figure>
+                     <img src="assets/img/personas/Emma.png" alt="" class="persona-photo">
+                     <figcaption>Emma, 24 y/o, productivity enthusiast.</figcaption>
+                  </figure>
+
+                  <table>
+                     <tr>
+                        <th>Persona</th>
+                        <td>The Productivity Enthusiast.</td>
+                     </tr>
+                     <tr>
+                        <th>Name</th>
+                        <td>Emma</td>
+                     </tr>
+                     <tr>
+                        <th>Age</th>
+                        <td>24</td>
+                     </tr>
+                     <tr>
+                        <th>Occupation</th>
+                        <td>Marketing Assistant</td>
+                     </tr>
+                     <tr>
+                        <th>Background</th>
+                        <td>Emma is always on the lookout for ways to boost her productivity. She uses your note-making app to create to-do lists, set reminders for important tasks, and keep track of her marketing ideas. Emma values the ability to customize the look of her notes to visually prioritize and organize her thoughts.</td>
+                     </tr>
+                     <tr>
+                        <th>Needs and Goals</th>
+                        <td>
+                           <ul>
+                              <li>Quick note-taking with a focus on to-do lists.</li>
+                              <li>Customization options for note appearance.</li>
+                              <li>Efficient filters to view completed and in-progress tasks.</li>
+                           </ul>
+                        </td>
+                     </tr>
+                     <tr>
+                        <th>Preferred Features</th>
+                        <td>
+                           <ul>
+                              <li>Background color customization for note items.</li>
+                              <li>Task completion status indicators.</li>
+                              <li>Easy-to-use update feature for note details.</li>
+                           </ul>
+                        </td>
+                     </tr>
+                  </table>
+               </article>
+
+               <!-- PERSONA 2 -->
+               <article class="persona-grid">
+                  <figure>
+                     <img src="assets/img/personas/Lily.png" alt="" class="persona-photo">
+                     <figcaption>Lily, 22 y/o, a cat lover.</figcaption>
+                  </figure>
+
+                  <table>
+                     <tr>
+                        <th>Persona</th>
+                        <td>The Cat Lover.</td>
+                     </tr>
+                     <tr>
+                        <th>Name</th>
+                        <td>Lily</td>
+                     </tr>
+                     <tr>
+                        <th>Age</th>
+                        <td>22</td>
+                     </tr>
+                     <tr>
+                        <th>Occupation</th>
+                        <td>Veterinary Student</td>
+                     </tr>
+                     <tr>
+                        <th>Background</th>
+                        <td>Lily is a cat enthusiast who uses your note-making app for a variety of purposes, including organizing her study notes, tracking appointments at the veterinary clinic, and even jotting down cute cat-related ideas. Lily appreciates the cat-themed design elements in your app, making her note-taking experience more enjoyable.</td>
+                     </tr>
+                     <tr>
+                        <th>Needs and Goals</th>
+                        <td>
+                           <ul>
+                              <li>Efficient organization of study notes with a touch of fun.</li>
+                              <li>Quick access to reminders for veterinary appointments.</li>
+                              <li>Enjoyable and visually appealing cat-themed design.</li>
+                           </ul>
+                        </td>
+                     </tr>
+                     <tr>
+                        <th>Preferred Features</th>
+                        <td>
+                           <ul>
+                              <li>Cat-themed icons and background color customization.</li>
+                              <li>Reminders for important veterinary appointments.</li>
+                              <li>Seamless update and timestamp features for tracking changes.</li>
+                           </ul>
+                        </td>
+                     </tr>
+                  </table>
+               </article>
+
+               <!-- PERSONA 3 -->
+               <article class="persona-grid">
+                  <figure>
+                     <img src="assets/img/personas/Olivia.png" alt="" class="persona-photo">
+                     <figcaption>Olivia, 35 y/o, fitness enthusiast.</figcaption>
+                  </figure>
+
+                  <table>
+                     <tr>
+                        <th>Persona</th>
+                        <td>The Fitness Enthusiast</td>
+                     </tr>
+                     <tr>
+                        <th>Name</th>
+                        <td>Olivia</td>
+                     </tr>
+                     <tr>
+                        <th>Age</th>
+                        <td>35</td>
+                     </tr>
+                     <tr>
+                        <th>Occupation</th>
+                        <td>Personal Trainer</td>
+                     </tr>
+                     <tr>
+                        <th>Background</th>
+                        <td>Olivia uses Kitnote to manage her fitness routines, client schedules, and nutrition plans. As a fitness enthusiast, she values a visually engaging and user-friendly app that complements her active lifestyle. Olivia seeks features that aid her in staying organized and focused on her fitness goals.</td>
+                     </tr>
+                     <tr>
+                        <th>Needs and Goals</th>
+                        <td>
+                           <ul>
+                              <li>Streamlined note-taking for fitness routines and nutrition plans.</li>
+                              <li>Visual customization options for a personalized touch.</li>
+                              <li>Quick access to filters for managing different aspects of her fitness notes.</li>
+                           </ul>
+                        </td>
+                     </tr>
+                     <tr>
+                        <th>Preferred Features</th>
+                        <td>
+                           <ul>
+                              <li>Visual appeal with background color and icon customization.</li>
+                              <li>Efficient filters for organizing workout and nutrition notes.</li>
+                              <li>User-friendly design for a seamless fitness planning experience.</li>
+                           </ul>
+                        </td>
+                     </tr>
+                  </table>
+               </article>
+
+               <!-- PERSONA 4 -->
+               <article class="persona-grid">
+                  <figure>
+                     <img src="assets/img/personas/Brian.png" alt="" class="persona-photo">
+                     <figcaption>Brian, 28 y/o, creative freelancer.</figcaption>
+                  </figure>
+
+                  <table>
+                     <tr>
+                        <th>Persona</th>
+                        <td>The Creative Freelancer</td>
+                     </tr>
+                     <tr>
+                        <th>Name</th>
+                        <td>Brian</td>
+                     </tr>
+                     <tr>
+                        <th>Age</th>
+                        <td>28</td>
+                     </tr>
+                     <tr>
+                        <th>Occupation</th>
+                        <td>Graphic Designer</td>
+                     </tr>
+                     <tr>
+                        <th>Background</th>
+                        <td>Brian, a creative freelancer, relies on Kitnote to organize design concepts, client details, and project deadlines. He appreciates the app's cat-themed design, finding it a unique and enjoyable touch to his note-taking experience. Brian seeks features that enhance his creative workflow and provide a personalized touch.</td>
+                     </tr>
+                     <tr>
+                        <th>Needs and Goals</th>
+                        <td>
+                           <ul>
+                              <li>Creative tools for jotting down design ideas and concepts.</li>
+                              <li>Personalized customization options for a unique note-taking experience.</li>
+                              <li>Efficient organization of projects and tasks.</li>
+                           </ul>
+                        </td>
+                     </tr>
+                     <tr>
+                        <th>Preferred Features</th>
+                        <td>
+                           <ul>
+                              <li>Cat-themed icons and backgrounds for a touch of creativity.</li>
+                              <li>Quick access to note previews for streamlined project management.</li>
+                              <li>Personalization options, such as color choices and visual aesthetics.</li>
+                           </ul>
+                        </td>
+                     </tr>
+                  </table>
+               </article>
+            </div>
+         </article>
+      </section>
+
+      <!-- DESIGN AND PROTOTYPE -->
+      <section>
+         <button class="accordion btn5">Design and Prototype</button>
+         <article class="panel design-prototype">
+            <div class="container">
+               <div class="moodboard">
+                  <h3>Mood Board</h3>
+                  
+                  <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="70%" height="800" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FPEd23gdfsy99bTpwNoqfI4%2FProject2---MoodBoard%3Fpage-id%3D0%253A1%26type%3Ddesign%26node-id%3D202-2%26viewport%3D342%252C803%252C0.15%26t%3D8KDTROYHBfPMYfwj-1%26scaling%3Dcontain%26mode%3Ddesign" allowfullscreen></iframe>
+               </div>
+               
+               <div class="mockup">
+                  <h3>Mockup</h3>
+
+                  <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="70%" height="500" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2Fb2sDnWwse3inbTyKQ8WK4N%2FProject-2---Mockup%3Fpage-id%3D0%253A1%26type%3Ddesign%26node-id%3D201-50%26viewport%3D244%252C399%252C0.32%26t%3DIbSl52x3Jr6XxrNx-1%26scaling%3Dcontain%26mode%3Ddesign" allowfullscreen></iframe>
+               </div>
+               
+               <div class="prototype">
+                  <h3>Prototype</h3>
+
+                  <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="35%" height="750" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FxD4xyNeSHE9dwAjmgtHKcU%2FProject2---Prototype%3Fpage-id%3D0%253A1%26type%3Ddesign%26node-id%3D27-197%26viewport%3D404%252C144%252C0.24%26t%3DtUPZbHchvtZkvVMx-1%26scaling%3Dscale-down%26starting-point-node-id%3D27%253A197%26mode%3Ddesign" allowfullscreen></iframe>
+               </div>
+            </div>
+         </article>
+      </section>
+
+      <!-- Usability Testing -->
+      <section>
+         <button class="accordion btn6">Usability Testing</button>
+         <article class="panel testing">
+            <div class="container">
+               <h3>Testing</h3>
+               <iframe width="70%" height="450" src="https://www.youtube.com/embed/gaoV35gfR8k?si=chs-q-P58EwPoNE9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+               <!-- Lighthouse -->
+               <div class="lighthouse">
+                  <h3>Lighthouse Analysis</h3>
+
+                  <img src="assets/img/testing/lighthouse_desktop.png" alt="">
+                  <figcaption>Lighthouse analysis on desktop: 100% performance</figcaption>
+
+                  <img src="assets/img/testing/lighthouse_mobile.png" alt="">
+                  <figcaption>Lighthouse analysis on mobile: 95% performance</figcaption>
+               </div>
+
+            </div>
+         </article>
+      </section>
+
+      <!-- Improvement Plan -->
+      <section>
+         <button class="accordion btn7">Improvement Plan</button>
+         <article class="panel">
+            <div class="container">
+               <h3>Future Improvements</h3>
+
+               <ul>
+                  <li>More cats ❤️</li>
+                  <li>Personalize user experience welcoming them by showing their names</li>
+                  <li>When adding a note, change background colour of modal when choosing a specific color</li>
+                  <li>Add rich text editing feature (bold, underline, italic, list etc) </li>
+                  <li>Allow user to open a specific note only by clicking anywhere on it instead of use a dedicated button to do that</li>
+                  <li>Hide note when checking it done and show only when using the specific filter</li>
+                  <li>Create a filter to show deleted notes and add the option to delete them forever if desired</li>
+                  <li>Add reminder configuration and notification</li>
+                  <li>Add the possibility to share a note</li>
+                  <li>Dark mode in server storage and applied to the login page so the user can have it activated even if they log out and log in again in another device</li>
+               </ul>
+            </div>
+         </article>
+      </section>
+
+       
+
+      <section>
+         <button class="accordion btn8">Conclusion</button>
+         <article class="panel">
+            <div class="container">
+               <p>
+                  As you can see, Kitnote is not just another note-taking app. It's your best feline-inspired companion for a more fun and efficient note-taking experience. With a cute <i>contempurrary</i> cat-lover makeover, Kitnote combines minimalist design with essential features to keep your tasks organized. The renovated UI ensures a smooth and visually appealing interaction, offering a grid layout for easy access to all your notes. The addition of dark/light mode, customizable note colors, and a user-friendly floating menu increases the overall user experience.
+               </p>
+                  
+               <p>
+                  Our focus on simplicity and functionality sets Kitnote apart in a market crowded with saturated options. We understand that sometimes less is more, and we've updated the app to prioritize what truly matters - helping you to stay on top of your tasks. As we move forward, Kitnote is committed to continuous improvement, with plans to introduce more enjoyable cat-themed elements, personalization features, and additional enhancements based on user feedback. Come with us in the joy of note-taking, where simplicity meets productivity. Welcome to Kitnote - because who wouldn't want a touch of feline charm in their daily tasks? Come scratch your meows with us! 😼
+               </p>
+            </div>
+         </article>
+      </section>
+   </main>
+   <script src="assets/js/script.js"></script>
+   </body>
+
+</html>
